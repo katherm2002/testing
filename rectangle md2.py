@@ -7,3 +7,4 @@ perimeter = (length + width) * 2
 area =  length * width
 print("The area of the rectangle is", area)
 print("The perimeter of the rectangle is", perimeter)
+

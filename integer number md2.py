@@ -9,3 +9,4 @@ average = sum / 3
 print("The sum is", sum)
 print("The product is", product)
 print("The average is", average)
+

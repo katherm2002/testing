@@ -14,3 +14,4 @@ g= random.randint(1,6)
 
 code4 = str(d)+str(e)+str(f)+str(g)
 print("4-digit code;", code4)
+
