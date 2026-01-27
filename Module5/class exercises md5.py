@@ -26,6 +26,8 @@
 #
 # for n in names:
 #     print(f"Hello, {n}!")
+
+
 # for loops exercises
 # numbers=[]
 # number=(input("Enter a number or quit by pressing Enter: "))
@@ -56,19 +58,20 @@
 # for n in numbers:
 #     print(n)
 
-numbers=[]
-user_number = (input("Enter number, empty to quit: "))
-while user_number!= '':
-    number=int(user_number)
-    numbers.append(int(user_number))
-    user_number = (input("Enter number, empty to quit: "))
 
-unique_number=[]
-
-for n in numbers:
-    if n > 100 and n not in unique_number:
-        unique_number.append(n)
-        print(n)
+# numbers=[]
+# user_number = (input("Enter number, empty to quit: "))
+# while user_number!= '':
+#     number=int(user_number)
+#     numbers.append(int(user_number))
+#     user_number = (input("Enter number, empty to quit: "))
+#
+# unique_number=[]
+#
+# for n in numbers:
+#     if n > 100 and n not in unique_number:
+#         unique_number.append(n)
+#         print(n)
 
 
 
