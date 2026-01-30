@@ -263,7 +263,102 @@
 # for num in unique_numbers:
 #     print(num)
 
+# numbers=[]
+# user_number = input("Enter a number (empty to quit): ")
+# while user_number != '':
+#     numbers.append(int(user_number))
+#     user_number = input("Enter a number (empty to quit): ")
+# positive=0
+# negative=0
+# zeros=0
+# for i in numbers:
+#     if i >0:
+#         positive+=1
+#     elif i<0:
+#         negative +=1
+#     else:
+#         zeros +=1
+# print(f"Positive numbers: {positive}")
+# print(f"Negative numbers: {negative}")
+# print(f"Zeros: {zeros}")
 
+
+# words=[]
+# user_words = input("Enter a word (empty to quit): ")
+# while user_words != '':
+#     words.append(user_words)
+#     user_words = input("Enter a word (empty to quit): ")
+# unique_list=[]
+# for i in words:
+#     if i not in unique_list:
+#         unique_list.append(i)
+#
+# for n in unique_list:
+#     print(n)
+
+
+
+# exam_scores=[]
+# student_number=int(input("Enter how many students there are: "))
+# for i in range(student_number):
+#     scores = int(input("Enter exam scores: "))
+#     exam_scores.append(scores)
+# average= sum(exam_scores)/student_number
+# highest=max(exam_scores)
+# lowest=min(exam_scores)
+# count_90=0
+# for score in exam_scores:
+#     if score >= 90:
+#         count_90 +=1
+# print(f"Average score: {average}")
+# print(f"Highest score: {highest}")
+# print(f"Lowest score: {lowest}")
+# print(f"Scores >= 90: {count_90}")
+
+
+# number=int(input("Enter a integer: "))
+# count=0
+# for i in range(1,10+1):
+#     print(f"{number} x {i} = {number * i}")
+
+
+# numbers=[]
+# n=input("Enter a integer 'empty to quit': ")
+# while n != '':
+#     numbers.append(int(n))
+#     n = input("Enter a integer 'empty to quit': ")
+# if len(numbers)<2:
+#     print("You must enter at least two numbers")
+# else:
+#     numbers.sort()
+#     second_largest = numbers[-2]
+#     print(f"The second largest number is {second_largest}")
+
+
+# numbers = []
+#
+# n = input("Enter an integer (empty to quit): ")
+# while n != "":
+#     numbers.append(int(n))
+#     n = input("Enter an integer (empty to quit): ")
+#
+# unique_numbers = []
+# for i in numbers:
+#     if i not in unique_numbers:
+#         unique_numbers.append(i)
+#
+# max_count = 0
+# most_frequent = None
+#
+# for num in unique_numbers:
+#     count = numbers.count(num)
+#     print(f"{num} appears {count} times")
+#
+#     if count > max_count or (count == max_count and (most_frequent is None or num < most_frequent)):
+#         max_count = count
+#         most_frequent = num
+#
+# print(f"Most frequent: {most_frequent}")
 
 
 
