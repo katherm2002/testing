@@ -205,7 +205,15 @@
 # inventory(backpack)
 
 
-# exercise class
+# exercise ai
+# import random
+# def number():
+#     return random.randint(1,10)
+# x= number()
+# while x != 10:
+#     print(x)
+#     x=number()
+# print(x)
 
 
 
