@@ -29,14 +29,14 @@
 # print("Total sum:",total_sum)
 
 
-count=0
-total_sum=0
-while total_sum <=1000:
-        number=int(input("Enter a number"))
-        total_sum=total_sum+number
-        count=count+1
-print("Final sum:", total_sum)
-print("Numbers entered:", count)
+# count=0
+# total_sum=0
+# while total_sum <=1000:
+#         number=int(input("Enter a number"))
+#         total_sum=total_sum+number
+#         count=count+1
+# print("Final sum:", total_sum)
+# print("Numbers entered:", count)
 
 
 

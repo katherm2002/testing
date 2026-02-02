@@ -361,8 +361,94 @@
 # print(f"Most frequent: {most_frequent}")
 
 
+# EXAM PRACTICE 2
+# name=input("Enter your name: ")
+# age=int(input("Enter your age: "))
+# print(f"Hello {name.title()}, You are {age} years old.")
+
+# exercise 2
+# length=float(input("Enter the length of a rectangle: "))
+# width=float(input("Enter the width of a rectangle: "))
+# area=length*width
+# perimeter=2 *(length+width)
+# print(f"The area is: {area} and the perimeter is {perimeter}")
+
+# exercise 3
+# number=int(input("Enter a number: "))
+# if number % 2 ==0:
+#     print(f"{number} is even number.")
+# else:
+#     print("Odd number")
+
+# exercise 4
+# count=0
+# sum=0
+# number = input("Enter a number 'empty to quit': ")
+# while number != '':
+#     sum+=int(number)
+#     number = input("Enter a number 'empty to quit': ")
+#     count+=1
+# print(f"The sum of the numbers is {sum}")
+# print(f"you entered {count} numbers")
+
+# exercise 5
+# n=int(input("Enter a number: "))
+# if n<=0:
+#     print("Error")
+# else:
+#     x=0
+#     while x <=n:
+#         print(x)
+#         x+=5
+
+# exercise 6
+# n=int(input("Enter a number: "))
+# for i in range(1,10+1):
+#     print(f"{n} x {i} = {n*i}")
 
 
+# exercise 7
+# temp=[]
+# times=int(input("How many temperatures you want to enter: "))
+# for i in range(times):
+#     temperature=float(input("Enter temperature: "))
+#     temp.append(temperature)
+# average=sum (temp) / times
+# print(f"The average temperature is {average}")
+# print(f"The highest temperature is {max(temp)}")
+# print(f"The lowest temperature is {min(temp)}")
+
+# exercise 8
+# numbers = []
+# x = input("Enter an integer (empty to quit): ")
+#
+# while x != "":
+#     numbers.append(int(x))
+#     x = input("Enter an integer (empty to quit): ")
+#
+# unique = []
+# for n in numbers:
+#     if n not in unique:
+#         unique.append(n)
+#
+# for n in unique:
+#     print(f"{n} appears {numbers.count(n)} times")
+
+# exercise 9
+# def to_seconds(minutes):
+#     return minutes*60
+# m=float(input("Enter minutes: "))
+# while m>=0:
+#     print(to_seconds(m))
+#     m = float(input("Enter minutes: "))
+# print("program ended")
+
+# exercise 10
+# def largest(lst):
+#     return max(lst)
+# numbers=[1,2,3,4,5,6,7,8,9]
+# result=largest(numbers)
+# print(result)
 
 
 
