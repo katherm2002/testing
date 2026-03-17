@@ -13,14 +13,17 @@ class Car:
         if self.current_speed < 0:
             self.current_speed = 0
 
+    def drive(self,number_hours):
+        self.travelled_distance = self.travelled_distance + self.current_speed * number_hours
+
 car = Car("ABC-123",142)
 car.accelerate(30)
 car.accelerate(70)
 car.accelerate(50)
-
-print(f"Registration number: {car.registration_number} "
-      f"\nMaximum speed: {car.max_speed}"
-      f"\nCurrent speed: {car.current_speed}"
+car.drive(1.5)
+print(f"Registration number: {car.registration_number} " 
+      f"\nMaximum speed: {car.max_speed}" 
+      f"\nCurrent speed: {car.current_speed}" 
       f"\nTravelled distance: {car.travelled_distance}")
 car.accelerate(-200)
 print(f"Final speed: {car.current_speed}")
